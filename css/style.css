@@ -86,7 +86,8 @@ a.back-menu {
 
 #title-img {
   width: 32rem;
-  padding: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .tint {
@@ -146,7 +147,8 @@ h1, h2, h3, h4, h5, nav {
 }
 
 h2 {
-  margin: 1.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
   /* for padding on mobile*/
 }
 
