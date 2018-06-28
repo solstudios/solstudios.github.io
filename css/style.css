@@ -86,7 +86,7 @@ a.back-menu {
 
 #title-img {
   width: 30rem;
-  padding: 1.5rem;
+  padding: 2rem;
 }
 
 .tint {
@@ -211,5 +211,6 @@ label.active {
 /* icon */
 
 .fa-bars {
+  margin-right: -0.7rem;
   font-size: 1.4rem;
 }
