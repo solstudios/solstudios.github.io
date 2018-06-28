@@ -46,19 +46,16 @@ html, body {
   color: #263238;
 }
 
-.italic {
-  font-style: italic;
-}
-
-.title-img {
-  width: 30rem;
-  padding: 1.5rem;
-}
+/* navbar */
 
 nav ul a,
 nav .brand-logo {
   color: #444;
   font-size: 1.5rem;
+}
+
+.brand-logo {
+  font-weight: bold;
 }
 
 #nav-mobile a {
@@ -75,6 +72,21 @@ p {
 
 .sidenav-overlay {
   z-index: 2;
+}
+
+a.active.back-menu {
+  color: #3f51b5 !important;
+}
+
+a.back-menu {
+  color: #263238 !important;
+}
+
+/* parallax */
+
+#title-img {
+  width: 30rem;
+  padding: 1.5rem;
 }
 
 .tint {
@@ -94,7 +106,7 @@ p {
 .parallax-container {
   line-height: 0;
   height: auto;
-  color: rgba(255,255,255,.9);
+  color: rgba(255,255,255,.95);
 }
 
 .parallax-container .section {
@@ -117,12 +129,25 @@ p {
   }
 }
 
+/* footer */
+
 footer.page-footer {
   margin: 0;
 }
 
+/* text style */
+
+.italic {
+  font-style: italic;
+}
+
 h1, h2, h3, h4, h5, nav {
   font-family: 'Dosis', sans-serif;
+}
+
+h2 {
+  padding: 1.5rem;
+  /* for padding on mobile*/
 }
 
 h1, h3, h4 {
@@ -139,10 +164,6 @@ p {
   font-size: 1.3rem;
 }
 
-.brand-logo {
-  font-weight: bold;
-}
-
 .small-container {
   max-width: 50rem;
 }
@@ -155,6 +176,8 @@ p {
 .col {
   height: 100%;
 }
+
+/* section parts */
 
 .section-image {
   margin-top: 1.5rem;
@@ -185,20 +208,8 @@ label.active {
   box-shadow: 0 1px 0 0 #3f51b5 !important;
 }
 
-/* icon
- * ----------------*/
+/* icon */
 
 .fa-bars {
   font-size: 1.4rem;
-}
-
-/* menu
- * --------------------------*/
-
-a.active.back-menu {
-  color: #3f51b5 !important;
-}
-
-a.back-menu {
-  color: #263238 !important;
 }

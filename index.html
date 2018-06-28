@@ -32,30 +32,33 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
+  <!-- sidebar -->
   <ul id="nav-mobile" class="sidenav left grey lighten-5">
+    <li><a class="back-menu" href="#home">HOME</a></li>
     <li><a class="back-menu" href="#about">ABOUT</a></li>
     <li><a class="back-menu" href="#projects">PROJECTS</a></li>
     <li><a class="back-menu" href="#contact">CONTACT</a></li>
   </ul>
 
+  <!-- top transparent navbar -->
   <div id="front">
     <nav class="transparent z-depth-0 pushpin-nav" role="navigation" data-target="front">
       <div class="nav-wrapper container">
-        <a id="logo-container" href="#" class="brand-logo left grey-text text-lighten-5">SOL STUDIOS</a>
+        <a id="logo-container" href="#home" class="brand-logo left grey-text text-lighten-5">SOL STUDIOS</a>
         <ul class="right hide-on-med-and-down">
           <li><a class="grey-text text-lighten-5" href="#about">ABOUT</a></li>
           <li><a class="grey-text text-lighten-5" href="#projects">PROJECTS</a></li>
           <li><a class="grey-text text-lighten-5" href="#contact">CONTACT</a></li>
         </ul>
 
-        <a href="#" data-target="nav-mobile" class="sidenav-trigger right">
+        <a href="#home" data-target="nav-mobile" class="sidenav-trigger right">
           <i class="grey-text text-lighten-5 fa fa-bars"></i>
         </a>
       </div>
     </nav>
     <div id="home" class="parallax-container parallax-front scrollspy">
       <div class="tint valign-wrapper">
-        <div class="row center container title-img">
+        <div id="title-img" class="row center container">
           <img class="responsive-img" src="img/solstudio.svg.png"></img>
         </div>
       </div>
@@ -64,6 +67,7 @@
   </div>
 
   <div id="back">
+  <!-- bottom white navbar -->
   <nav class="pushpin-nav grey lighten-5" role="navigation" data-target="back">
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo left blue-grey-text text-darken-4">SOL STUDIOS</a>
@@ -79,6 +83,7 @@
     </div>
   </nav>
 
+  <!-- parallax for about -->
   <div class="parallax-container parallax-header">
     <div class="tint valign-wrapper">
       <div class="row center">
@@ -88,6 +93,7 @@
     <div class="parallax"><img src="img/M4phV9.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
+  <!-- about section -->
   <div id="about" class="section-blue scrollspy">
     <div class="small-container container">
       <div class="section valign-wrapper">
@@ -95,7 +101,7 @@
         <div class="row">
           <div class="col s12">
             <div class="hide-on-med-and-up">
-              <h3 style="margin-bottom: 0;">ABOUT US</h3>
+              <h3 class="center-align" style="margin-bottom: 0;">ABOUT US</h3>
               <img class="responsive-img section-image"
                    src="img/Earth-chan ever so slightly taller newer art.png">
             </div>
@@ -116,43 +122,45 @@
     </div>
   </div>
 
+  <!-- parallax for projects -->
   <div class="parallax-container parallax-header">
     <div class="tint valign-wrapper">
       <div class="row center">
-        <h2>What we are doing</h2>
+        <h2>What we are making</h2>
       </div>
     </div>
     <div class="parallax"><img src="img/shining_edge_universe-normal.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
+  <!-- projects section -->
   <div id="projects" class="section-grey scrollspy">
     <div class="small-container container">
       <div class="section valign-wrapper">
 
         <div class="row">
           <div class="col s12">
-            <h3 style="margin-left: 1.75rem;">PROJECTS</h3>
+            <h3 class="center-align">PROJECTS</h3>
           </div>
-            <div class="col s12">
-              <div class="card z-depth-0 blue-grey darken-4" onclick="goto('https://www.twitch.tv/solstudios')">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" class="tint" src="img/podcast.png" style="margin-top: -5vh">
-                  <span class="card-title">SOL Podcast</span>
-                </div>
-              </div>
-            </div>
             <div class="col s12">
               <div class="card z-depth-0 blue-grey darken-4" onclick="goto('https://www.youtube.com/c/SolStudios')">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="img/echan-wall.png" style="margin-top: -2vh">
+                  <img class="activator" src="img/echan-wall.png">
                   <span class="card-title">Echan Anime</span>
                 </div>
               </div>
             </div>
             <div class="col s12">
-              <div class="card z-depth-0 blue-grey darken-4" onclick="goto('https://sol-studios.tumblr.com')">
+              <div class="card z-depth-0 blue-grey darken-4" onclick="goto('https://www.twitch.tv/solstudios')">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="img/solitude.jpg" style="margin-top: -2vh">
+                  <img class="activator" class="tint" src="img/solpodcast.png">
+                  <span class="card-title">SOL Podcast</span>
+                </div>
+              </div>
+            </div>
+            <div class="col s12">
+              <div class="card z-depth-0 blue-grey darken-4" onclick="goto('https://anotherdumbcomic.tumblr.com/')">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="img/solitude.jpg">
                   <span class="card-title">SOLitude</span>
                 </div>
               </div>
@@ -163,15 +171,17 @@
       </div>
     </div>
 
+  <!-- parallax for contact -->
   <div class="parallax-container parallax-header">
     <div class="tint valign-wrapper">
       <div class="row center">
-        <h2>Tell us how to do things</h2>
+        <h2>Tell us what to do</h2>
       </div>
     </div>
     <div class="parallax"><img src="img/HD-Space-Wallpaper-For-Background-7.jpg" alt="Unsplashed background img 2"></div>
   </div>
 
+  <!-- contact section -->
   <div id="contact" class="section-black scrollspy">
     <div class="small-container container">
       <div class="section valign-wrapper">
@@ -222,6 +232,7 @@
     </div>
   </div>
 
+  <!-- footer -->
   <footer class="page-footer indigo">
     <div class="section-blue">
     <div class="container">
@@ -275,11 +286,11 @@
                   </a>
                 </li>
               </ul>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
     <div class="footer-copyright">
       <div class="container">
         <div class="row" style="margin-bottom: 0;">
