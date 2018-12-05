@@ -23,13 +23,13 @@
 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>{{ site.title }}</title>
+  <title>SOL Studios</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/css?family=Dosis|Work+Sans" rel="stylesheet">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  <link href="{{"/css/materialize.css" | relative_url }}" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="{{"css/style.css" | relative_url}}" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
   <body>
     <!-- top transparent navbar -->
@@ -60,11 +60,11 @@
       <div id="home" class="parallax-container parallax-front scrollspy">
         <div class="full-height valign-wrapper">
           <div id="title-img" class="row center container">
-            <img class="responsive-img" src="{{"img/solstudio.svg.png" | relative_url}}"></img>
+            <img class="responsive-img" src="/img/solstudio.svg.png"></img>
           </div>
         </div>
         <div class="parallax"><img
-        src="{{"img/bright-light-in-the-galaxy-by-the-pink-nebula-52752-2560x1600.jpg" | relative_url}}" alt="Unsplashed background img 1"></div>
+        src="/img/bright-light-in-the-galaxy-by-the-pink-nebula-52752-2560x1600.jpg" alt="Unsplashed background img 1"></div>
       </div>
     </div>
 
@@ -86,7 +86,27 @@
     </nav>
 
     <!-- where content is -->
-    {{content}}
+    <style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
+
+<div class="container">
+  <h1>404</h1>
+
+  <p><strong>Page not found :(</strong></p>
+  <p>The requested page could not be found.</p>
+</div>
+
 
     <!-- footer -->
     <footer class="page-footer indigo">
@@ -169,8 +189,8 @@
 
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="{{"js/materialize.js" | relative_url}}"></script>
-    <script src="{{"js/init.js" | relative_url}}"></script>
-    <script src="{{"js/script.js" | relative_url}}"></script>
+    <script src="/js/materialize.js"></script>
+    <script src="/js/init.js"></script>
+    <script src="/js/script.js"></script>
   </body>
 </html>
