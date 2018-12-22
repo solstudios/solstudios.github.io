@@ -1,0 +1,39 @@
+<form class="row" onchange="mail(this)">
+  <div class="col s12">
+    <h3 class="center-align" style="padding-bottom: 1rem">CONTACT US</h3>
+  </div>
+  <div class="col s12">
+    <div class="row">
+      <div class="input-field col s12 m6">
+        <input id="name" type="text">
+        <label for="name">Name</label>
+      </div>
+      <div class="input-field col s12 m6">
+        <input id="subject" type="text">
+        <label for="subject">Subject</label>
+      </div>
+    </div>
+  </div>
+  <div class="col s12">
+    <div class="row">
+      <div class="input-field col s12" style="min-height: 5rem;">
+        <textarea id="mail-field" class="materialize-textarea" name="message"></textarea>
+        <label for="mail-field">Message</label>
+      </div>
+    </div>
+  </div>
+  <div class="col s12">
+    <div class="row vert-align">
+      <div class="input-field col s12 m8 grey-text left-align">
+        Mails to solstudioss@gmail.com
+      </div>
+      <div class="hide-on-small-only input-field col s12 m4 right-align">
+        <button class="btn waves-effect waves-light indigo" id="submit1" onclick="goto('mailto:solstudioss@gmail.com')">Submit</button>
+      </div>
+      <div class="hide-on-med-and-up input-field col s12 center-align">
+        <button class="btn waves-effect waves-light indigo"
+                id="submit2" onclick="goto('mailto:solstudioss@gmail.com')">Submit</button>
+      </div>
+    </div>
+  </div>
+</form>
