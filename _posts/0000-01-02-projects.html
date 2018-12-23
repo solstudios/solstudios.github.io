@@ -1,0 +1,23 @@
+---
+title: "projects"
+info: "What We Are Making"
+image: /img/shining_edge_universe-normal.jpg
+style: section-grey
+---
+
+<div class="row">
+  <div class="col s12">
+    <h3 class="center-align">PROJECTS</h3>
+  </div>
+    {% for project in site.data.projects %}
+    <div class="col s12">
+      <div class="card z-depth-0 blue-grey darken-4" onclick="goto('{{ project.url }}')">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator background-img" src="{{ project.image | relative_url}}">
+          <span class="card-title">{{ project.title }}</span>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-22T12:57:04-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">SOL Studios</title><subtitle>Thanks for reading our page! We love you!&lt;br /&gt; Remember, Earth-Chan's not Flat!</subtitle><author><name>@incognito</name></author><entry><title type="html">contact</title><link href="http://localhost:4000/2000/01/03/contact.html" rel="alternate" type="text/html" title="contact" /><published>2000-01-03T00:00:00-08:00</published><updated>2000-01-03T00:00:00-08:00</updated><id>http://localhost:4000/2000/01/03/contact</id><content type="html" xml:base="http://localhost:4000/2000/01/03/contact.html">&lt;form class=&quot;row&quot; onchange=&quot;mail(this)&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-22T19:22:18-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">SOL Studios</title><subtitle>Thanks for reading our page! We love you!&lt;br /&gt; Remember, Earth-Chan's not Flat!</subtitle><author><name>@incognito</name></author><entry><title type="html">contact</title><link href="http://localhost:4000/0000/01/02/contact.html" rel="alternate" type="text/html" title="contact" /><published>0000-01-02T23:58:04-07:52</published><updated>0000-01-02T23:58:04-07:52</updated><id>http://localhost:4000/0000/01/02/contact</id><content type="html" xml:base="http://localhost:4000/0000/01/02/contact.html">&lt;form class=&quot;row&quot; onchange=&quot;mail(this)&quot;&gt;
   &lt;div class=&quot;col s12&quot;&gt;
     &lt;h3 class=&quot;center-align&quot; style=&quot;padding-bottom: 1rem&quot;&gt;CONTACT US&lt;/h3&gt;
   &lt;/div&gt;
@@ -36,10 +36,11 @@
       &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
-&lt;/form&gt;</content><author><name>@incognito</name></author><summary type="html">CONTACT US Name Subject Message Mails to solstudioss@gmail.com Submit Submit</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/img/HD-Space-Wallpaper-For-Background-7.jpg" /></entry><entry><title type="html">projects</title><link href="http://localhost:4000/2000/01/02/projects.html" rel="alternate" type="text/html" title="projects" /><published>2000-01-02T00:00:00-08:00</published><updated>2000-01-02T00:00:00-08:00</updated><id>http://localhost:4000/2000/01/02/projects</id><content type="html" xml:base="http://localhost:4000/2000/01/02/projects.html">&lt;div class=&quot;row&quot;&gt;
+&lt;/form&gt;</content><author><name>@incognito</name></author><summary type="html">CONTACT US Name Subject Message Mails to solstudioss@gmail.com Submit Submit</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/img/HD-Space-Wallpaper-For-Background-7.jpg" /></entry><entry><title type="html">projects</title><link href="http://localhost:4000/0000/01/01/projects.html" rel="alternate" type="text/html" title="projects" /><published>0000-01-01T23:58:04-07:52</published><updated>0000-01-01T23:58:04-07:52</updated><id>http://localhost:4000/0000/01/01/projects</id><content type="html" xml:base="http://localhost:4000/0000/01/01/projects.html">&lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;col s12&quot;&gt;
     &lt;h3 class=&quot;center-align&quot;&gt;PROJECTS&lt;/h3&gt;
   &lt;/div&gt;
+    
     &lt;div class=&quot;col s12&quot;&gt;
       &lt;div class=&quot;card z-depth-0 blue-grey darken-4&quot; onclick=&quot;goto('https://www.youtube.com/c/SolStudios')&quot;&gt;
         &lt;div class=&quot;card-image waves-effect waves-block waves-light&quot;&gt;
@@ -48,6 +49,7 @@
         &lt;/div&gt;
       &lt;/div&gt;
     &lt;/div&gt;
+    
     &lt;div class=&quot;col s12&quot;&gt;
       &lt;div class=&quot;card z-depth-0 blue-grey darken-4&quot; onclick=&quot;goto('https://www.twitch.tv/solstudios')&quot;&gt;
         &lt;div class=&quot;card-image waves-effect waves-block waves-light&quot;&gt;
@@ -56,16 +58,18 @@
         &lt;/div&gt;
       &lt;/div&gt;
     &lt;/div&gt;
+    
     &lt;div class=&quot;col s12&quot;&gt;
-      &lt;div class=&quot;card z-depth-0 blue-grey darken-4&quot; onclick=&quot;goto('https://anotherdumbcomic.tumblr.com/')&quot;&gt;
+      &lt;div class=&quot;card z-depth-0 blue-grey darken-4&quot; onclick=&quot;goto('https://anotherdumbcomic.tumblr.com')&quot;&gt;
         &lt;div class=&quot;card-image waves-effect waves-block waves-light&quot;&gt;
           &lt;img class=&quot;activator background-img&quot; src=&quot;/img/solitude.jpg&quot;&gt;
           &lt;span class=&quot;card-title&quot;&gt;SOLitude&lt;/span&gt;
         &lt;/div&gt;
       &lt;/div&gt;
     &lt;/div&gt;
+    
   &lt;/div&gt;
-&lt;/div&gt;</content><author><name>@incognito</name></author><summary type="html">PROJECTS Echan Anime SOL Podcast SOLitude</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/img/shining_edge_universe-normal.jpg" /></entry><entry><title type="html">about</title><link href="http://localhost:4000/2000/01/01/about.html" rel="alternate" type="text/html" title="about" /><published>2000-01-01T00:00:00-08:00</published><updated>2000-01-01T00:00:00-08:00</updated><id>http://localhost:4000/2000/01/01/about</id><content type="html" xml:base="http://localhost:4000/2000/01/01/about.html">&lt;div class=&quot;row&quot;&gt;
+&lt;/div&gt;</content><author><name>@incognito</name></author><summary type="html">PROJECTS Echan Anime SOL Podcast SOLitude</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/img/shining_edge_universe-normal.jpg" /></entry><entry><title type="html">about</title><link href="http://localhost:4000/-0001/12/31/about.html" rel="alternate" type="text/html" title="about" /><published>-0001-12-31T23:58:04-07:52</published><updated>-0001-12-31T23:58:04-07:52</updated><id>http://localhost:4000/-0001/12/31/about</id><content type="html" xml:base="http://localhost:4000/-0001/12/31/about.html">&lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;col s12&quot;&gt;
     &lt;div class=&quot;hide-on-med-and-up&quot;&gt;
       &lt;h3 class=&quot;center-align&quot; style=&quot;margin-bottom: 0;&quot;&gt;ABOUT US&lt;/h3&gt;
