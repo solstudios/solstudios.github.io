@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
     <!-- favicons -->
@@ -29,8 +28,8 @@
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/css?family=Dosis|Work+Sans" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   </head>
   <body>
     <!-- top transparent navbar -->
@@ -42,23 +41,23 @@
           </a>
           <ul class="right hide-on-med-and-down">
             
-            <li>
-              <a class="grey-text text-lighten-5" href="#about">
-                ABOUT
-              </a>
-            </li>
+              <li>
+                <a class="grey-text text-lighten-5" href="#about">
+                  ABOUT
+                </a>
+              </li>
             
-            <li>
-              <a class="grey-text text-lighten-5" href="#projects">
-                PROJECTS
-              </a>
-            </li>
+              <li>
+                <a class="grey-text text-lighten-5" href="#projects">
+                  PROJECTS
+                </a>
+              </li>
             
-            <li>
-              <a class="grey-text text-lighten-5" href="#contact">
-                CONTACT
-              </a>
-            </li>
+              <li>
+                <a class="grey-text text-lighten-5" href="#contact">
+                  CONTACT
+                </a>
+              </li>
             
           </ul>
 
@@ -72,33 +71,34 @@
       <ul id="nav-mobile" class="sidenav left grey lighten-5">
         <li><a class="back-menu sidenav-close" href="#home">HOME</a></li>
         
-        <li>
-          <a class="back-menu sidenav-close" href="#about">
-            ABOUT
-          </a>
-        </li>
+          <li>
+            <a class="back-menu sidenav-close" href="#about">
+              ABOUT
+            </a>
+          </li>
         
-        <li>
-          <a class="back-menu sidenav-close" href="#projects">
-            PROJECTS
-          </a>
-        </li>
+          <li>
+            <a class="back-menu sidenav-close" href="#projects">
+              PROJECTS
+            </a>
+          </li>
         
-        <li>
-          <a class="back-menu sidenav-close" href="#contact">
-            CONTACT
-          </a>
-        </li>
+          <li>
+            <a class="back-menu sidenav-close" href="#contact">
+              CONTACT
+            </a>
+          </li>
         
       </ul>
 
       <div id="home" class="parallax-container parallax-front scrollspy">
         <div class="full-height valign-wrapper">
           <div id="title-img" class="row center container">
-            <img class="responsive-img" src="img/solstudio.svg.png"></img>
+            <img class="responsive-img" src="/img/solstudio.svg.png"></img>
           </div>
         </div>
-        <div class="parallax"><img src="img/bright-light-in-the-galaxy-by-the-pink-nebula-52752-2560x1600.jpg" alt="Unsplashed background img 1"></div>
+        <div class="parallax"><img
+             src="/img/bright-light-in-the-galaxy-by-the-pink-nebula-52752-2560x1600.jpg" alt="Unsplashed background img 1"></div>
       </div>
     </div>
 
@@ -111,11 +111,11 @@
           </a>
           <ul class="right hide-on-med-and-down">
             
-            <li><a class="back-menu" href="#about">ABOUT</a></li>
+              <li><a class="back-menu" href="#about">ABOUT</a></li>
             
-            <li><a class="back-menu" href="#projects">PROJECTS</a></li>
+              <li><a class="back-menu" href="#projects">PROJECTS</a></li>
             
-            <li><a class="back-menu" href="#contact">CONTACT</a></li>
+              <li><a class="back-menu" href="#contact">CONTACT</a></li>
             
           </ul>
 
@@ -127,19 +127,19 @@
 
       <!-- where content is -->
       
-      <div class="parallax-container parallax-header">
-        <div class="tint valign-wrapper">
-          <div class="row center">
-            <h2>What We Do</h2>
+        <div class="parallax-container parallax-header">
+          <div class="tint valign-wrapper">
+            <div class="row center">
+              <h2>What We Do</h2>
+            </div>
           </div>
+          <div class="parallax"><img src="/img/M4phV9.jpg"></div>
         </div>
-        <div class="parallax"><img src="/img/M4phV9.jpg"></div>
-      </div>
 
-      <div id="about" class="scrollspy section-blue">
-        <div class="small-container container">
-          <div class="section valign-wrapper">
-            <div class="row">
+        <div id="about" class="scrollspy section-blue">
+          <div class="small-container container">
+            <div class="section valign-wrapper">
+              <div class="row">
   <div class="col s12">
     <div class="hide-on-med-and-up">
       <h3 class="center-align" style="margin-bottom: 0;">ABOUT US</h3>
@@ -160,23 +160,23 @@
   </div>
 </div>
 
+            </div>
           </div>
         </div>
-      </div>
       
-      <div class="parallax-container parallax-header">
-        <div class="tint valign-wrapper">
-          <div class="row center">
-            <h2>What We Are Making</h2>
+        <div class="parallax-container parallax-header">
+          <div class="tint valign-wrapper">
+            <div class="row center">
+              <h2>What We Are Making</h2>
+            </div>
           </div>
+          <div class="parallax"><img src="/img/shining_edge_universe-normal.jpg"></div>
         </div>
-        <div class="parallax"><img src="/img/shining_edge_universe-normal.jpg"></div>
-      </div>
 
-      <div id="projects" class="scrollspy section-grey">
-        <div class="small-container container">
-          <div class="section valign-wrapper">
-            <div class="row">
+        <div id="projects" class="scrollspy section-grey">
+          <div class="small-container container">
+            <div class="section valign-wrapper">
+              <div class="row">
   <div class="col s12">
     <h3 class="center-align">PROJECTS</h3>
   </div>
@@ -211,23 +211,23 @@
   
 </div>
 
+            </div>
           </div>
         </div>
-      </div>
       
-      <div class="parallax-container parallax-header">
-        <div class="tint valign-wrapper">
-          <div class="row center">
-            <h2>Tell Us What To Do</h2>
+        <div class="parallax-container parallax-header">
+          <div class="tint valign-wrapper">
+            <div class="row center">
+              <h2>Tell Us What To Do</h2>
+            </div>
           </div>
+          <div class="parallax"><img src="/img/HD-Space-Wallpaper-For-Background-7.jpg"></div>
         </div>
-        <div class="parallax"><img src="/img/HD-Space-Wallpaper-For-Background-7.jpg"></div>
-      </div>
 
-      <div id="contact" class="scrollspy section-black">
-        <div class="small-container container">
-          <div class="section valign-wrapper">
-            <div>
+        <div id="contact" class="scrollspy section-black">
+          <div class="small-container container">
+            <div class="section valign-wrapper">
+              <div>
 <form class="row" onchange="mail(this)">
   <div class="col s12">
     <h3 class="center-align" style="padding-bottom: 1rem">CONTACT US</h3>
@@ -269,95 +269,91 @@
 </form>
 </div>
 
+            </div>
           </div>
         </div>
-      </div>
       
+
+      <!-- footer -->
+      <footer class="page-footer indigo">
+        <div class="section-blue">
+          <div class="container">
+            <div class="row">
+              <div class="col m7 s12">
+                <h5>SOL Studios</h5>
+                <p>
+                  Thanks for reading our page! We love you!<br /> Remember, Earth-Chan's not Flat!
+                </p>
+
+              </div>
+              <div class="col m5 s12">
+                <h5 class="white-text" style="margin-bottom: 0.25rem;">Connect</h5>
+                <div class="row">
+                  <div class="col s6">
+                    <ul>
+                      <li>
+                        <a class="white-text" href="https://discord.gg/VsARsXV">
+                          <i class="fa fa-gamepad fa-fw"></i> Discord
+                        </a>
+                      </li>
+                      <li>
+                        <a class="white-text" href="https://www.reddit.com/user/sol-studios">
+                          <i class="fa fa-reddit-alien fa-fw"></i> Reddit
+                        </a>
+                      </li>
+                      <li>
+                        <a class="white-text" href="https://www.twitch.tv/solstudios">
+                          <i class="fa fa-twitch fa-fw"></i> Twitch
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col s6">
+                    <ul>
+                      <li>
+                        <a class="white-text" href="https://twitter.com/Studios_SOL">
+                          <i class="fa fa-twitter fa-fw"></i> Twitter
+                        </a>
+                      </li>
+                      <li>
+                        <a class="white-text" href="https://sol-studios.tumblr.com">
+                          <i class="fa fa-tumblr fa-fw"></i> Tumblr
+                        </a>
+                      </li>
+                      <li>
+                        <a class="white-text" href="https://www.youtube.com/c/SolStudios">
+                          <i class="fa fa-youtube-play fa-fw"></i> YouTube
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+              <div class="row" style="margin-bottom: 0;">
+                <div class="col m6 s12 left-align">
+                  Made by <a class="white-text">@incognito</a>
+                </div>
+                <div class="hide-on-small-only col m6 s12 right-align">
+                  <span class="italic">In Fond Memory of Leegi</span>
+                </div>
+                <div class="hide-on-med-and-up col m6 s12 left-align" style="padding-top: 0.25rem;">
+                  <span class="italic">In Fond Memory of Leegi</span>
+                </div>
+              </div>
+            </div>
+          </div>
+      </footer>
+        </div>
     </div>
 
-    <!-- footer -->
-    <footer class="page-footer indigo">
-      <div class="section-blue">
-        <div class="container">
-          <div class="row">
-            <div class="col m7 s12">
-              <h5>SOL Studios</h5>
-              <p>
-                Thanks for reading our page! We love you!
-                <br>
-                Remember, Earth-Chan's not Flat!
-              </p>
-
-            </div>
-            <div class="col m5 s12">
-              <h5 class="white-text" style="margin-bottom: 0.25rem;">Connect</h5>
-              <div class="row">
-                <div class="col s6">
-                  <ul>
-                    <li>
-                      <a class="white-text" href="https://discord.gg/VsARsXV">
-                        <i class="fa fa-gamepad fa-fw"></i> Discord
-                      </a>
-                    </li>
-                    <li>
-                      <a class="white-text" href="https://www.reddit.com/user/sol-studios">
-                        <i class="fa fa-reddit-alien fa-fw"></i> Reddit
-                      </a>
-                    </li>
-                    <li>
-                      <a class="white-text" href="https://www.twitch.tv/solstudios">
-                        <i class="fa fa-twitch fa-fw"></i> Twitch
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col s6">
-                  <ul>
-                    <li>
-                      <a class="white-text" href="https://twitter.com/Studios_SOL">
-                        <i class="fa fa-twitter fa-fw"></i> Twitter
-                      </a>
-                    </li>
-                    <li>
-                      <a class="white-text" href="https://sol-studios.tumblr.com">
-                        <i class="fa fa-tumblr fa-fw"></i> Tumblr
-                      </a>
-                    </li>
-                    <li>
-                      <a class="white-text" href="https://www.youtube.com/c/SolStudios">
-                        <i class="fa fa-youtube-play fa-fw"></i> YouTube
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="footer-copyright">
-          <div class="container">
-            <div class="row" style="margin-bottom: 0;">
-              <div class="col m6 s12 left-align">
-                Made by <a class="white-text">@incognito</a>
-              </div>
-              <div class="hide-on-small-only col m6 s12 right-align">
-                <span class="italic">In Fond Memory of Leegi</span>
-              </div>
-              <div class="hide-on-med-and-up col m6 s12 left-align" style="padding-top: 0.25rem;">
-                <span class="italic">In Fond Memory of Leegi</span>
-              </div>
-            </div>
-          </div>
-        </div>
-    </footer>
-
-      </div>
-
-      <!--  Scripts-->
-      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script src="js/materialize.js"></script>
-      <script src="js/init.js"></script>
-      <script src="js/script.js"></script>
-
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
