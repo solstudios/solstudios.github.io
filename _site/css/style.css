@@ -172,6 +172,7 @@ p {
 }
 
 .small-container {
+  display: block;
   max-width: 50rem;
 }
 
@@ -221,4 +222,10 @@ label.active {
 .fa-bars {
   margin-right: -0.7rem;
   font-size: 1.4rem;
+}
+
+/* css for Team page */
+
+.dark-text {
+  color: #263238;
 }

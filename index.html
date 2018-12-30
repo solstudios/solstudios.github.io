@@ -108,12 +108,14 @@
               <h2>{{ page.info }}</h2>
             </div>
           </div>
-          <div class="parallax"><img src="{{ page.image | relative_url }}"></div>
+          <div class="parallax">
+            <img src="{{ page.image | relative_url }}">
+          </div>
         </div>
 
         <div id="{{ page.title }}" class="scrollspy {{ page.style }}">
           <div class="small-container container">
-            <div class="section valign-wrapper">
+            <div class="section">
               {{ page.content }}
             </div>
           </div>

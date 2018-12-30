@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-23T21:32:08-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">SOL Studios</title><subtitle>Thanks for reading our page! We love you!&lt;br /&gt; Remember, Earth-Chan's not Flat!</subtitle><author><name>@incognito</name></author><entry><title type="html">contact</title><link href="http://localhost:4000/0000/01/02/contact.html" rel="alternate" type="text/html" title="contact" /><published>0000-01-02T23:58:04-07:52</published><updated>0000-01-02T23:58:04-07:52</updated><id>http://localhost:4000/0000/01/02/contact</id><content type="html" xml:base="http://localhost:4000/0000/01/02/contact.html">&lt;div&gt;
-&lt;form class=&quot;row&quot; onchange=&quot;mail(this)&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-12-29T21:54:26-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">SOL Studios</title><subtitle>Thanks for reading our page! We love you!&lt;br /&gt; Remember, Earth-Chan's not Flat!</subtitle><author><name>@incognito</name></author><entry><title type="html">contact</title><link href="http://localhost:4000/0000/01/03/contact.html" rel="alternate" type="text/html" title="contact" /><published>0000-01-03T23:58:04-07:52</published><updated>0000-01-03T23:58:04-07:52</updated><id>http://localhost:4000/0000/01/03/contact</id><content type="html" xml:base="http://localhost:4000/0000/01/03/contact.html">&lt;form class=&quot;row&quot; onchange=&quot;mail(this)&quot;&gt;
   &lt;div class=&quot;col s12&quot;&gt;
     &lt;h3 class=&quot;center-align&quot; style=&quot;padding-bottom: 1rem&quot;&gt;CONTACT US&lt;/h3&gt;
   &lt;/div&gt;
@@ -37,8 +36,681 @@
       &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
-&lt;/form&gt;
-&lt;/div&gt;</content><author><name>@incognito</name></author><summary type="html">CONTACT US Name Subject Message Mails to solstudioss@gmail.com Submit Submit</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/img/HD-Space-Wallpaper-For-Background-7.jpg" /></entry><entry><title type="html">projects</title><link href="http://localhost:4000/0000/01/01/projects.html" rel="alternate" type="text/html" title="projects" /><published>0000-01-01T23:58:04-07:52</published><updated>0000-01-01T23:58:04-07:52</updated><id>http://localhost:4000/0000/01/01/projects</id><content type="html" xml:base="http://localhost:4000/0000/01/01/projects.html">&lt;div class=&quot;row&quot;&gt;
+&lt;/form&gt;</content><author><name>@incognito</name></author><summary type="html">CONTACT US Name Subject Message Mails to solstudioss@gmail.com Submit Submit</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/img/HD-Space-Wallpaper-For-Background-7.jpg" /></entry><entry><title type="html">team</title><link href="http://localhost:4000/0000/01/02/team.html" rel="alternate" type="text/html" title="team" /><published>0000-01-02T23:58:04-07:52</published><updated>0000-01-02T23:58:04-07:52</updated><id>http://localhost:4000/0000/01/02/team</id><content type="html" xml:base="http://localhost:4000/0000/01/02/team.html">&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;col s12&quot;&gt;
+    &lt;h3 class=&quot;center-align&quot;&gt;TEAM&lt;/h3&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;col s12&quot; style=&quot;display; block;&quot;&gt;
+    &lt;ul class=&quot;collapsible popout dark-text small-container&quot;&gt;
+      
+        &lt;li&gt;
+          &lt;div class=&quot;collapsible-header&quot;&gt;Comnyander&lt;/div&gt;
+          &lt;div class=&quot;collapsible-body&quot;&gt;
+            
+            
+              
+                &lt;span&gt;
+                  Comnyando
+                &lt;/span&gt;
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+          &lt;/div&gt;
+        &lt;/li&gt;
+      
+        &lt;li&gt;
+          &lt;div class=&quot;collapsible-header&quot;&gt;Production&lt;/div&gt;
+          &lt;div class=&quot;collapsible-body&quot;&gt;
+            
+            
+              
+            
+              
+                &lt;span&gt;
+                  D-Pad
+                &lt;/span&gt;
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+          &lt;/div&gt;
+        &lt;/li&gt;
+      
+        &lt;li&gt;
+          &lt;div class=&quot;collapsible-header&quot;&gt;Animators&lt;/div&gt;
+          &lt;div class=&quot;collapsible-body&quot;&gt;
+            
+            
+              
+            
+              
+            
+              
+                &lt;span&gt;
+                  51707
+                &lt;/span&gt;
+              
+            
+              
+                &lt;span&gt;
+                  DoodlingNeko
+                &lt;/span&gt;
+              
+            
+              
+                &lt;span&gt;
+                  DoomsdayRabbit
+                &lt;/span&gt;
+              
+            
+              
+                &lt;span&gt;
+                  JOE
+                &lt;/span&gt;
+              
+            
+              
+                &lt;span&gt;
+                  Marvin
+                &lt;/span&gt;
+              
+            
+              
+                &lt;span&gt;
+                  Raluki
+                &lt;/span&gt;
+              
+            
+              
+                &lt;span&gt;
+                  TheDerp
+                &lt;/span&gt;
+              
+            
+              
+                &lt;span&gt;
+                  morgan.cfrost
+                &lt;/span&gt;
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+          &lt;/div&gt;
+        &lt;/li&gt;
+      
+        &lt;li&gt;
+          &lt;div class=&quot;collapsible-header&quot;&gt;Artists&lt;/div&gt;
+          &lt;div class=&quot;collapsible-body&quot;&gt;
+            
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+                &lt;span&gt;
+                  Catter
+                &lt;/span&gt;
+              
+            
+              
+                &lt;span&gt;
+                  Yipyo20
+                &lt;/span&gt;
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+          &lt;/div&gt;
+        &lt;/li&gt;
+      
+        &lt;li&gt;
+          &lt;div class=&quot;collapsible-header&quot;&gt;Music&lt;/div&gt;
+          &lt;div class=&quot;collapsible-body&quot;&gt;
+            
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+                &lt;span&gt;
+                  SpaceTim
+                &lt;/span&gt;
+              
+            
+              
+                &lt;span&gt;
+                  TekSoda
+                &lt;/span&gt;
+              
+            
+              
+                &lt;span&gt;
+                  incognito
+                &lt;/span&gt;
+              
+            
+              
+                &lt;span&gt;
+                  scrubloard
+                &lt;/span&gt;
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+          &lt;/div&gt;
+        &lt;/li&gt;
+      
+        &lt;li&gt;
+          &lt;div class=&quot;collapsible-header&quot;&gt;VAs&lt;/div&gt;
+          &lt;div class=&quot;collapsible-body&quot;&gt;
+            
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+                &lt;span&gt;
+                  Adora
+                &lt;/span&gt;
+              
+            
+              
+                &lt;span&gt;
+                  Cerillen
+                &lt;/span&gt;
+              
+            
+              
+                &lt;span&gt;
+                  Charity
+                &lt;/span&gt;
+              
+            
+              
+                &lt;span&gt;
+                  CloneCommanderPonds
+                &lt;/span&gt;
+              
+            
+              
+                &lt;span&gt;
+                  DeathBy0w0
+                &lt;/span&gt;
+              
+            
+              
+                &lt;span&gt;
+                  Pecan2
+                &lt;/span&gt;
+              
+            
+              
+                &lt;span&gt;
+                  Rook
+                &lt;/span&gt;
+              
+            
+              
+                &lt;span&gt;
+                  Shiroroll
+                &lt;/span&gt;
+              
+            
+              
+                &lt;span&gt;
+                  Space Flower
+                &lt;/span&gt;
+              
+            
+              
+                &lt;span&gt;
+                  moth
+                &lt;/span&gt;
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+          &lt;/div&gt;
+        &lt;/li&gt;
+      
+        &lt;li&gt;
+          &lt;div class=&quot;collapsible-header&quot;&gt;Media&lt;/div&gt;
+          &lt;div class=&quot;collapsible-body&quot;&gt;
+            
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+                &lt;span&gt;
+                  LinkRar
+                &lt;/span&gt;
+              
+            
+              
+            
+              
+            
+              
+            
+          &lt;/div&gt;
+        &lt;/li&gt;
+      
+        &lt;li&gt;
+          &lt;div class=&quot;collapsible-header&quot;&gt;Mods&lt;/div&gt;
+          &lt;div class=&quot;collapsible-body&quot;&gt;
+            
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+            
+              
+                &lt;span&gt;
+                  Fortnight
+                &lt;/span&gt;
+              
+            
+              
+                &lt;span&gt;
+                  Metroxis
+                &lt;/span&gt;
+              
+            
+              
+                &lt;span&gt;
+                  Potato
+                &lt;/span&gt;
+              
+            
+          &lt;/div&gt;
+        &lt;/li&gt;
+      
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content><author><name>@incognito</name></author><summary type="html">TEAM</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/img/HD-Space-Wallpaper-For-Background-7.jpg" /></entry><entry><title type="html">projects</title><link href="http://localhost:4000/0000/01/01/projects.html" rel="alternate" type="text/html" title="projects" /><published>0000-01-01T23:58:04-07:52</published><updated>0000-01-01T23:58:04-07:52</updated><id>http://localhost:4000/0000/01/01/projects</id><content type="html" xml:base="http://localhost:4000/0000/01/01/projects.html">&lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;col s12&quot;&gt;
     &lt;h3 class=&quot;center-align&quot;&gt;PROJECTS&lt;/h3&gt;
   &lt;/div&gt;
