@@ -12,7 +12,7 @@ style: section-grey
 
   {% for project in site.data.projects %}
   <div class="col s12">
-    <div class="card z-depth-0 blue-grey darken-4" onclick="goto('{{ project.url }}')">
+    <div class="card z-depth-1 blue-grey darken-4" onclick="goto('{{ project.url }}')">
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator background-img" src="{{ project.image | relative_url}}">
         <span class="card-title">{{ project.title }}</span>

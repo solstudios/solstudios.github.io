@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-01-11T22:03:27-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">SOL Studios</title><subtitle>Thanks for reading our page! We love you!&lt;br /&gt; Remember, Earth-Chan's not Flat!</subtitle><author><name>@incognito</name></author><entry><title type="html">contact</title><link href="http://localhost:4000/0000/01/03/contact.html" rel="alternate" type="text/html" title="contact" /><published>0000-01-03T23:58:04-07:52</published><updated>0000-01-03T23:58:04-07:52</updated><id>http://localhost:4000/0000/01/03/contact</id><content type="html" xml:base="http://localhost:4000/0000/01/03/contact.html">&lt;form class=&quot;row&quot; onchange=&quot;mail(this)&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-01-11T23:34:46-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">SOL Studios</title><subtitle>Thanks for reading our page! We love you!&lt;br /&gt; Remember, Earth-Chan's not Flat!</subtitle><author><name>@incognito</name></author><entry><title type="html">contact</title><link href="http://localhost:4000/0000/01/03/contact.html" rel="alternate" type="text/html" title="contact" /><published>0000-01-03T23:58:04-07:52</published><updated>0000-01-03T23:58:04-07:52</updated><id>http://localhost:4000/0000/01/03/contact</id><content type="html" xml:base="http://localhost:4000/0000/01/03/contact.html">&lt;form class=&quot;row&quot; onchange=&quot;mail(this)&quot;&gt;
   &lt;div class=&quot;col s12&quot;&gt;
     &lt;h3 class=&quot;center-align&quot; style=&quot;padding-bottom: 1rem&quot;&gt;CONTACT US&lt;/h3&gt;
   &lt;/div&gt;
@@ -41,21 +41,27 @@
     &lt;h3 class=&quot;center-align&quot;&gt;TEAM&lt;/h3&gt;
   &lt;/div&gt;
 
-  &lt;div class=&quot;searchContainer input-field col s12 dark-text z-depth-1&quot;&gt;
-    &lt;nav class=&quot;z-depth-0&quot;&gt;
+  &lt;div class=&quot;col s12 searchContainer card section-purewhite z-depth-1&quot;&gt;
+    &lt;nav class=&quot;section-purewhite z-depth-0&quot;&gt;
       &lt;div class=&quot;nav-wrapper&quot;&gt;
         &lt;form&gt;
           &lt;div class=&quot;input-field&quot;&gt;
-            &lt;input id=&quot;search&quot; type=&quot;search&quot; required&gt;
-            &lt;label class=&quot;label-icon&quot; for=&quot;search&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;search&lt;/i&gt;&lt;/label&gt;
-            &lt;i class=&quot;material-icons&quot;&gt;close&lt;/i&gt;
+            &lt;input id=&quot;filterInput&quot;
+                   type=&quot;search&quot;
+                   onkeyup=&quot;filterFunction()&quot;
+                   onkeypress=&quot;&quot;
+                   autocomplete=&quot;off&quot;
+                   class=&quot;dark-text&quot;
+                   required&gt;
+            &lt;label class=&quot;label-icon&quot;&gt;&lt;i class=&quot;material-icons dark-text&quot;&gt;search&lt;/i&gt;&lt;/label&gt;
+            &lt;i class=&quot;material-icons dark-text&quot; onclick=&quot;filterClear()&quot;&gt;close&lt;/i&gt;
           &lt;/div&gt;
         &lt;/form&gt;
       &lt;/div&gt;
     &lt;/nav&gt;
 
     &lt;div class=&quot;filterContainer&quot;&gt;
-      &lt;ul class=&quot;filterUl collection&quot;&gt;
+      &lt;ul id=&quot;filterUl&quot; class=&quot;collection&quot;&gt;
         
           
           
@@ -63,7 +69,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/1.Comnyander/Comnyando.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;Comnyando&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;Comnyander&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;Comnyander&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -135,7 +141,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/2.Production/D-Pad.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;D-Pad&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;Production&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;Production&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -207,7 +213,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/3.Animators/51707.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;51707&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;Animators&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;Animators&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -216,7 +222,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/3.Animators/DoodlingNeko.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;DoodlingNeko&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;Animators&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;Animators&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -225,7 +231,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/3.Animators/DoomsdayRabbit.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;DoomsdayRabbit&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;Animators&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;Animators&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -234,7 +240,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/3.Animators/JOE.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;JOE&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;Animators&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;Animators&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -243,7 +249,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/3.Animators/Marvin.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;Marvin&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;Animators&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;Animators&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -252,7 +258,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/3.Animators/Raluki.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;Raluki&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;Animators&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;Animators&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -261,7 +267,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/3.Animators/TheDerp.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;TheDerp&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;Animators&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;Animators&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -270,7 +276,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/3.Animators/morgan.cfrost.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;morgan.cfrost&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;Animators&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;Animators&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -342,7 +348,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/4.Artists/Catter.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;Catter&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;Artists&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;Artists&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -351,7 +357,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/4.Artists/Yipyo20.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;Yipyo20&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;Artists&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;Artists&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -423,7 +429,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/5.Musics/SpaceTim.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;SpaceTim&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;Music&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;Music&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -432,7 +438,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/5.Musics/TekSoda.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;TekSoda&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;Music&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;Music&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -441,7 +447,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/5.Musics/incognito.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;incognito&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;Music&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;Music&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -450,7 +456,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/5.Musics/scrubloard.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;scrubloard&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;Music&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;Music&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -522,7 +528,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/6.VAs/Adora.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;Adora&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;VAs&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;VAs&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -531,7 +537,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/6.VAs/Cerillen.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;Cerillen&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;VAs&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;VAs&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -540,7 +546,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/6.VAs/Charity.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;Charity&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;VAs&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;VAs&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -549,7 +555,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/6.VAs/CloneCommanderPonds.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;CloneCommanderPonds&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;VAs&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;VAs&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -558,7 +564,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/6.VAs/DeathBy0w0.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;DeathBy0w0&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;VAs&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;VAs&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -567,7 +573,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/6.VAs/Pecan2.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;Pecan2&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;VAs&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;VAs&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -576,7 +582,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/6.VAs/Rook.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;Rook&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;VAs&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;VAs&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -585,7 +591,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/6.VAs/Shiroroll.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;Shiroroll&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;VAs&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;VAs&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -594,7 +600,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/6.VAs/Space%20Flower.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;Space Flower&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;VAs&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;VAs&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -603,7 +609,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/6.VAs/moth.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;moth&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;VAs&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;VAs&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -675,7 +681,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/7.Media/LinkRar.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;LinkRar&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;Media&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;Media&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -747,7 +753,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/8.Mods/Fortnight.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;Fortnight&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;Mods&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;Mods&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -756,7 +762,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/8.Mods/Metroxis.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;Metroxis&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;Mods&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;Mods&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -765,7 +771,7 @@
               &lt;li class=&quot;filterLi dark-text collection-item avatar&quot;&gt;
                 &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/8.Mods/Potato.png&quot;&gt;
                 &lt;span class=&quot;title&quot;&gt;Potato&lt;/span&gt;
-                &lt;span&gt;&lt;br&gt;Mods&lt;/span&gt;
+                &lt;span class=&quot;indigo-text&quot;&gt;&lt;br&gt;Mods&lt;/span&gt;
                 &lt;!--&lt;a href=&quot;#!&quot; class=&quot;secondary-content&quot;&gt;&lt;i class=&quot;material-icons&quot;&gt;grade&lt;/i&gt;&lt;/a&gt;--&gt;
               &lt;/li&gt;
             
@@ -774,932 +780,14 @@
       &lt;/ul&gt;
     &lt;/div&gt;
   &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;!--
-        li class=&quot;filterLi collection-item avatar&quot;&gt;
-          &lt;div class=&quot;collapsible-header&quot;&gt;&lt;/div&gt;
-          &lt;div class=&quot;collapsible-body profile-container&quot;&gt;
-            &lt;div class=&quot;row&quot;&gt;
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/li&gt;
-    &lt;ul class=&quot;collapsible popout dark-text small-container&quot;&gt;
-      
-        &lt;li&gt;
-          &lt;div class=&quot;collapsible-header&quot;&gt;Comnyander&lt;/div&gt;
-          &lt;div class=&quot;collapsible-body profile-container&quot;&gt;
-            &lt;div class=&quot;row&quot;&gt;
-              
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/1.Comnyander/Comnyando.png&quot;&gt;
-                        &lt;p&gt;Comnyando&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/li&gt;
-      
-        &lt;li&gt;
-          &lt;div class=&quot;collapsible-header&quot;&gt;Production&lt;/div&gt;
-          &lt;div class=&quot;collapsible-body profile-container&quot;&gt;
-            &lt;div class=&quot;row&quot;&gt;
-              
-              
-                
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/2.Production/D-Pad.png&quot;&gt;
-                        &lt;p&gt;D-Pad&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/li&gt;
-      
-        &lt;li&gt;
-          &lt;div class=&quot;collapsible-header&quot;&gt;Animators&lt;/div&gt;
-          &lt;div class=&quot;collapsible-body profile-container&quot;&gt;
-            &lt;div class=&quot;row&quot;&gt;
-              
-              
-                
-              
-                
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/3.Animators/51707.png&quot;&gt;
-                        &lt;p&gt;51707&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/3.Animators/DoodlingNeko.png&quot;&gt;
-                        &lt;p&gt;DoodlingNeko&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/3.Animators/DoomsdayRabbit.png&quot;&gt;
-                        &lt;p&gt;DoomsdayRabbit&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/3.Animators/JOE.png&quot;&gt;
-                        &lt;p&gt;JOE&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/3.Animators/Marvin.png&quot;&gt;
-                        &lt;p&gt;Marvin&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/3.Animators/Raluki.png&quot;&gt;
-                        &lt;p&gt;Raluki&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/3.Animators/TheDerp.png&quot;&gt;
-                        &lt;p&gt;TheDerp&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/3.Animators/morgan.cfrost.png&quot;&gt;
-                        &lt;p&gt;morgan.cfrost&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/li&gt;
-      
-        &lt;li&gt;
-          &lt;div class=&quot;collapsible-header&quot;&gt;Artists&lt;/div&gt;
-          &lt;div class=&quot;collapsible-body profile-container&quot;&gt;
-            &lt;div class=&quot;row&quot;&gt;
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/4.Artists/Catter.png&quot;&gt;
-                        &lt;p&gt;Catter&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/4.Artists/Yipyo20.png&quot;&gt;
-                        &lt;p&gt;Yipyo20&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/li&gt;
-      
-        &lt;li&gt;
-          &lt;div class=&quot;collapsible-header&quot;&gt;Music&lt;/div&gt;
-          &lt;div class=&quot;collapsible-body profile-container&quot;&gt;
-            &lt;div class=&quot;row&quot;&gt;
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/5.Musics/SpaceTim.png&quot;&gt;
-                        &lt;p&gt;SpaceTim&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/5.Musics/TekSoda.png&quot;&gt;
-                        &lt;p&gt;TekSoda&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/5.Musics/incognito.png&quot;&gt;
-                        &lt;p&gt;incognito&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/5.Musics/scrubloard.png&quot;&gt;
-                        &lt;p&gt;scrubloard&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/li&gt;
-      
-        &lt;li&gt;
-          &lt;div class=&quot;collapsible-header&quot;&gt;VAs&lt;/div&gt;
-          &lt;div class=&quot;collapsible-body profile-container&quot;&gt;
-            &lt;div class=&quot;row&quot;&gt;
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/6.VAs/Adora.png&quot;&gt;
-                        &lt;p&gt;Adora&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/6.VAs/Cerillen.png&quot;&gt;
-                        &lt;p&gt;Cerillen&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/6.VAs/Charity.png&quot;&gt;
-                        &lt;p&gt;Charity&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/6.VAs/CloneCommanderPonds.png&quot;&gt;
-                        &lt;p&gt;CloneCommanderPonds&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/6.VAs/DeathBy0w0.png&quot;&gt;
-                        &lt;p&gt;DeathBy0w0&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/6.VAs/Pecan2.png&quot;&gt;
-                        &lt;p&gt;Pecan2&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/6.VAs/Rook.png&quot;&gt;
-                        &lt;p&gt;Rook&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/6.VAs/Shiroroll.png&quot;&gt;
-                        &lt;p&gt;Shiroroll&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/6.VAs/Space%20Flower.png&quot;&gt;
-                        &lt;p&gt;Space Flower&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/6.VAs/moth.png&quot;&gt;
-                        &lt;p&gt;moth&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/li&gt;
-      
-        &lt;li&gt;
-          &lt;div class=&quot;collapsible-header&quot;&gt;Media&lt;/div&gt;
-          &lt;div class=&quot;collapsible-body profile-container&quot;&gt;
-            &lt;div class=&quot;row&quot;&gt;
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/7.Media/LinkRar.png&quot;&gt;
-                        &lt;p&gt;LinkRar&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-                
-              
-                
-              
-                
-              
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/li&gt;
-      
-        &lt;li&gt;
-          &lt;div class=&quot;collapsible-header&quot;&gt;Mods&lt;/div&gt;
-          &lt;div class=&quot;collapsible-body profile-container&quot;&gt;
-            &lt;div class=&quot;row&quot;&gt;
-              
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/8.Mods/Fortnight.png&quot;&gt;
-                        &lt;p&gt;Fortnight&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/8.Mods/Metroxis.png&quot;&gt;
-                        &lt;p&gt;Metroxis&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-                
-                  &lt;div class=&quot;col m4 s6&quot;&gt;
-                    &lt;div class=&quot;card&quot;&gt;
-                      &lt;div class=&quot;card-content&quot;&gt;
-                        &lt;img class=&quot;circle profile-image&quot; src=&quot;/img/team/8.Mods/Potato.png&quot;&gt;
-                        &lt;p&gt;Potato&lt;/p&gt;
-                      &lt;/div&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                
-              
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/li&gt;
-      
-    &lt;/ul&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;row&quot;&gt;
-  &lt;div class=&quot;col l3 m4 s6&quot;&gt;
-    &lt;div class=&quot;card&quot;&gt;
-      &lt;div class=&quot;card-content&quot;&gt;
-        &lt;p&gt;&lt;/p&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
---&gt;</content><author><name>@incognito</name></author><summary type="html">TEAM</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/img/HD-Space-Wallpaper-For-Background-7.jpg" /></entry><entry><title type="html">projects</title><link href="http://localhost:4000/0000/01/01/projects.html" rel="alternate" type="text/html" title="projects" /><published>0000-01-01T23:58:04-07:52</published><updated>0000-01-01T23:58:04-07:52</updated><id>http://localhost:4000/0000/01/01/projects</id><content type="html" xml:base="http://localhost:4000/0000/01/01/projects.html">&lt;div class=&quot;row&quot;&gt;
+&lt;/div&gt;</content><author><name>@incognito</name></author><summary type="html">TEAM</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/img/HD-Space-Wallpaper-For-Background-7.jpg" /></entry><entry><title type="html">projects</title><link href="http://localhost:4000/0000/01/01/projects.html" rel="alternate" type="text/html" title="projects" /><published>0000-01-01T23:58:04-07:52</published><updated>0000-01-01T23:58:04-07:52</updated><id>http://localhost:4000/0000/01/01/projects</id><content type="html" xml:base="http://localhost:4000/0000/01/01/projects.html">&lt;div class=&quot;row&quot;&gt;
   &lt;div class=&quot;col s12&quot;&gt;
     &lt;h3 class=&quot;center-align&quot;&gt;PROJECTS&lt;/h3&gt;
   &lt;/div&gt;
 
   
   &lt;div class=&quot;col s12&quot;&gt;
-    &lt;div class=&quot;card z-depth-0 blue-grey darken-4&quot; onclick=&quot;goto('https://www.youtube.com/c/SolStudios')&quot;&gt;
+    &lt;div class=&quot;card z-depth-1 blue-grey darken-4&quot; onclick=&quot;goto('https://www.youtube.com/c/SolStudios')&quot;&gt;
       &lt;div class=&quot;card-image waves-effect waves-block waves-light&quot;&gt;
         &lt;img class=&quot;activator background-img&quot; src=&quot;/img/echan-wall.png&quot;&gt;
         &lt;span class=&quot;card-title&quot;&gt;Echan Anime&lt;/span&gt;
@@ -1708,7 +796,7 @@
   &lt;/div&gt;
   
   &lt;div class=&quot;col s12&quot;&gt;
-    &lt;div class=&quot;card z-depth-0 blue-grey darken-4&quot; onclick=&quot;goto('https://www.twitch.tv/solstudios')&quot;&gt;
+    &lt;div class=&quot;card z-depth-1 blue-grey darken-4&quot; onclick=&quot;goto('https://www.twitch.tv/solstudios')&quot;&gt;
       &lt;div class=&quot;card-image waves-effect waves-block waves-light&quot;&gt;
         &lt;img class=&quot;activator background-img&quot; src=&quot;/img/solpodcast.png&quot;&gt;
         &lt;span class=&quot;card-title&quot;&gt;SOL Podcast&lt;/span&gt;
@@ -1717,7 +805,7 @@
   &lt;/div&gt;
   
   &lt;div class=&quot;col s12&quot;&gt;
-    &lt;div class=&quot;card z-depth-0 blue-grey darken-4&quot; onclick=&quot;goto('https://anotherdumbcomic.tumblr.com')&quot;&gt;
+    &lt;div class=&quot;card z-depth-1 blue-grey darken-4&quot; onclick=&quot;goto('https://anotherdumbcomic.tumblr.com')&quot;&gt;
       &lt;div class=&quot;card-image waves-effect waves-block waves-light&quot;&gt;
         &lt;img class=&quot;activator background-img&quot; src=&quot;/img/solitude.jpg&quot;&gt;
         &lt;span class=&quot;card-title&quot;&gt;SOLitude&lt;/span&gt;
