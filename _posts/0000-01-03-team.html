@@ -20,23 +20,95 @@ roles:
     <h3 class="center-align">TEAM</h3>
   </div>
 
-  <div class="col s12" style="display; block;">
+  <div class="searchContainer input-field col s12 dark-text z-depth-1">
+    <nav class="z-depth-0">
+      <div class="nav-wrapper">
+        <form>
+          <div class="input-field">
+            <input id="search" type="search" required>
+            <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+            <i class="material-icons">close</i>
+          </div>
+        </form>
+      </div>
+    </nav>
+
+    <div class="filterContainer">
+      <ul class="filterUl collection">
+        {% for role in page.roles %}
+          {% assign members = site.static_files | where: "team_image", true %}
+          {% for member in members %}
+            {% if member.path contains role %}
+              <li class="filterLi dark-text collection-item avatar">
+                <img class="circle profile-image" src="{{ member.path | relative_url}}">
+                <span class="title">{{ member.basename }}</span>
+                <span><br>{{ role }}</span>
+                <!--<a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>-->
+              </li>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<!--
+        li class="filterLi collection-item avatar">
+          <div class="collapsible-header">{{ role }}</div>
+          <div class="collapsible-body profile-container">
+            <div class="row">
+              {% assign members = site.static_files | where: "team_image", true %}
+              {% for member in members %}
+                {% if member.path contains role %}
+                  <div class="col m4 s6">
+                    <div class="card">
+                      <div class="card-content">
+                        <img class="circle profile-image" src="{{ member.path | relative_url}}">
+                        <p>{{ member.basename }}</p>
+                      </div>
+                    </div>
+                  </div>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </div>
+        </li>
     <ul class="collapsible popout dark-text small-container">
       {% for role in page.roles %}
         <li>
           <div class="collapsible-header">{{ role }}</div>
-          <div class="collapsible-body">
-            {% assign members = site.static_files | where: "team_image", true %}
-            {% for member in members %}
-              {% if member.path contains role %}
-                <span>
-                  {{ member.basename }}
-                </span>
-              {% endif %}
-            {% endfor %}
+          <div class="collapsible-body profile-container">
+            <div class="row">
+              {% assign members = site.static_files | where: "team_image", true %}
+              {% for member in members %}
+                {% if member.path contains role %}
+                  <div class="col m4 s6">
+                    <div class="card">
+                      <div class="card-content">
+                        <img class="circle profile-image" src="{{ member.path | relative_url}}">
+                        <p>{{ member.basename }}</p>
+                      </div>
+                    </div>
+                  </div>
+                {% endif %}
+              {% endfor %}
+            </div>
           </div>
         </li>
       {% endfor %}
     </ul>
   </div>
 </div>
+
+<div class="row">
+  <div class="col l3 m4 s6">
+    <div class="card">
+      <div class="card-content">
+        <p>{{ member.basename }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+-->
