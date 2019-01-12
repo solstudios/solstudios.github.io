@@ -21,7 +21,7 @@ roles:
   </div>
 
   <div class="col s12 searchContainer card section-purewhite z-depth-1">
-    <nav class="section-purewhite z-depth-0">
+    <nav class="section-white z-depth-0">
       <div class="nav-wrapper">
         <form>
           <div class="input-field">
@@ -30,10 +30,9 @@ roles:
                    onkeyup="filterFunction()"
                    onkeypress=""
                    autocomplete="off"
-                   class="dark-text"
-                   required>
+                   class="dark-text">
             <label class="label-icon"><i class="material-icons dark-text">search</i></label>
-            <i class="material-icons dark-text" onclick="filterClear()">close</i>
+            <i class="material-icons" onclick="filterClear()">close</i>
           </div>
         </form>
       </div>
@@ -45,16 +44,21 @@ roles:
           {% assign members = site.static_files | where: "team_image", true %}
           {% for member in members %}
             {% if member.path contains role %}
-              <li class="filterLi dark-text collection-item avatar">
+              <li class="filterLi dark-text collection-item avatar"
+                  onclick="imageModal('{{ member.path | relative_url }}')">
                 <img class="circle profile-image" src="{{ member.path | relative_url}}">
-                <span class="title">{{ member.basename }}</span>
-                <span class="indigo-text"><br>{{ role }}</span>
-                <!--<a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>-->
+                <span class="title" style="font-weight: bold;">{{ member.basename }}</span>
+                <br>
+                <span class="indigo-text">{{ role }}</span>
               </li>
             {% endif %}
           {% endfor %}
         {% endfor %}
       </ul>
     </div>
+  </div>
+  <!-- Modal for team images -->
+  <div id="modal1" class="modal center-align" onclick="$('#modal1').modal('close');">
+    <img id="modalImage" src="">
   </div>
 </div>

@@ -82,3 +82,10 @@ function filterFunction() {
     }
   }
 }
+
+function imageModal(imageSrc) {
+  console.log(imageSrc);
+  var image = document.getElementById('modalImage');
+  image.src = imageSrc;
+  $('#modal1').modal('open');
+}

@@ -289,3 +289,24 @@ label.active {
 .filterLi {
   min-height: auto !important;
 }
+
+.filterLi:hover {
+  background-color: #fafafa;
+}
+
+.filterLi:active {
+  background-color: #ffffff;
+}
+
+#modalImage {
+  max-width:100%;
+  border-radius: 2px;
+}
+
+#modal1 {
+  outline: 0 !important;
+  height: 0;
+  max-width: 55rem;
+  max-height: 100%;
+  overflow: visible
+}
