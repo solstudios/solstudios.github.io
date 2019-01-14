@@ -41,16 +41,23 @@ roles:
     <div class="filterContainer">
       <ul id="filterUl" class="collection">
         {% for role in page.roles %}
-          {% assign members = site.static_files | where: "team_image", true %}
-          {% for member in members %}
-            {% if member.path contains role %}
-              <li class="filterLi dark-text collection-item avatar"
-                  onclick="imageModal('{{ member.path | relative_url }}')">
-                <img class="circle profile-image" src="{{ member.path | relative_url}}">
-                <span class="title" style="font-weight: bold;">{{ member.basename }}</span>
-                <br>
-                <span class="indigo-text">{{ role }}</span>
-              </li>
+          {% assign thumbs = site.static_files | where: "team_thumbs", true %}
+          {% for thumb in thumbs %}
+            {% if thumb.path contains role %}
+
+              {% assign information = site.static_files | where: "team_info", true %}
+              {% for info in information %}
+                {% if thumb.basename == info.basename %}
+                  <li class="filterLi dark-text collection-item avatar"
+                    onclick="imageModal('{{ info.path | relative_url }}')">
+                    <img class="circle profile-image" src="{{ thumb.path | relative_url }}">
+                    <span class="title" style="font-weight: bold;">{{ thumb.basename }}</span>
+                    <br>
+                    <span class="indigo-text">{{ role }}</span>
+                  </li>
+                {% endif %}
+              {% endfor %}
+
             {% endif %}
           {% endfor %}
         {% endfor %}

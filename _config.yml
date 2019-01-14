@@ -41,6 +41,10 @@ markdown: kramdown
 
 defaults:
   - scope:
-      path: "img/team"
+      path: "img/team_info"
     values:
-      team_image: true
+      team_info: true
+  - scope:
+      path: "img/team_thumbs"
+    values:
+      team_thumbs: true
